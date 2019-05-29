@@ -1,6 +1,6 @@
 {
   "name": "mern-simple-foundation",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "boilerplate for mern stack development",
   "main": "template.js",
   "scripts": {
@@ -10,26 +10,38 @@
   },
   "author": "Sam Odum",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamOdum/my-mern-boilerplate.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/SamOdum/my-mern-boilerplate/issues"
+  },
+  "homepage": "https://github.com/SamOdum/my-mern-boilerplate#readme",
   "dependencies": {
-    "express": "^4.16.4",
-    "mongodb": "^3.2.4",
+    "@babel/polyfill": "^7.4.4",
+    "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-hot-loader": "^4.8.4"
+    "react-hot-loader": "^4.8.8"
   },
   "devDependencies": {
-    "babel-core": "^6.26.3",
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.6",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-react": "^6.24.1",
-    "babel-preset-stage-2": "^6.24.1",
-    "eslint-config-airbnb": "^17.1.0",
+    "css-loader": "^2.1.1",
+    "eslint": "^5.16.0",
     "eslint-plugin-react": "^7.13.0",
-    "nodemon": "^1.19.0",
-    "webpack": "^4.31.0",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.32.2",
+    "webpack-bundle-analyzer": "^3.3.2",
     "webpack-cli": "^3.3.2",
-    "webpack-dev-middleware": "^3.7.0",
-    "webpack-hot-middleware": "^2.24.4",
-    "webpack-node-externals": "^1.7.2"
+    "webpack-dev-server": "^3.4.1",
+    "webpack-merge": "^4.2.1"
   }
 }
